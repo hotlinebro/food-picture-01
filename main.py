@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
-"""food-picture-01 round 2: a photorealistic steaming tonkotsu ramen,
-tight 45-degree close-up, chopsticks lifting a tall glossy noodle pull,
-twin jammy eggs with runny golden yolks, seared chashu, black garlic oil,
-golden-hour light -- appetite first. Round 1 scored #703 because its
-execution was too plain (one egg, no chashu, wide dark composition), so
-round 2 uses the leaderboard-proven richer execution. The top entries
-share the same traits -- twin eggs, chashu, golden-hour -- so this round
-brings them all together in one tight close-up. Deterministic, no
-network, no randomness: it copies the bundled entry.png byte-for-byte."""
+"""food-picture-01 round 3: a photorealistic steaming tonkotsu ramen,
+steam-lit moody presentation -- chopsticks lifting a tall glossy noodle
+pull out of creamy broth, a halved jammy soft-boiled egg with a runny
+golden yolk, green onions, nori, and a speckled ceramic bowl, with warm
+steam catching the light. Appetite first.
+
+Round 1 scored #703 and round 2 scored #513. Both proved the subject
+is right (steaming tonkotsu ramen, noodle pull, jammy egg) but the
+execution still trails the top of the leaderboard, whose entries pair
+the same subject with stronger light and atmosphere. Round 3 is the
+steamlit variant: the same appetite-first subject, lit by warm steam
+so the broth glows and the noodle pull shines, a moodier, more
+appetizing frame than the flatter round 1 and the golden-hour round 2.
+
+Deterministic, no network, no randomness: it copies the bundled
+entry.png byte-for-byte to /output/entry.png.
+"""
 
 import os
 import shutil
