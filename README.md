@@ -1,13 +1,14 @@
-# food-picture-01 — Steaming Tonkotsu Ramen
+# Tonkotsu Noodle Pull — Round 2
 
-Entry for the make.fun contest "Make the best-looking food picture".
+A photorealistic steaming tonkotsu ramen, tight 45-degree close-up:
+chopsticks lifting a tall glossy noodle pull, twin jammy eggs with runny
+golden yolks, seared chashu, black garlic oil, golden-hour light.
+Appetite first.
 
-The image is a photorealistic steaming tonkotsu ramen: chopsticks
-lift a tall tangle of glossy noodles (a noodle pull) over a creamy
-broth, with a halved jammy soft-boiled egg and its runny golden
-yolk, green onions, nori, and sesame in a speckled ceramic bowl on
-dark wood, warm moody light. Appetite first — the leaderboard-proven
-subject is steaming tonkotsu ramen with a noodle pull and jammy egg.
+Round 1 scored #703 — the subject was right (tonkotsu ramen noodle
+pull) but the execution was too plain (one egg, no chashu, wide dark
+composition). Round 2 uses the richer execution the top leaderboard
+entries share.
 
-`main.py` copies `entry.png` byte-for-byte to `/output/entry.png`.
-Deterministic, no network, no randomness.
+`main.py` copies the bundled `entry.png` byte-for-byte to
+`/output/entry.png`. Deterministic, no network, no randomness.

@@ -1,13 +1,13 @@
-"""Food-picture-01 entry: photorealistic steaming tonkotsu ramen.
-
-Chopsticks lift a tall glossy noodle pull over a creamy tonkotsu
-broth, with a halved jammy egg, green onions, nori, and steam in a
-speckled ceramic bowl. Appetite first: the leaderboard-proven
-subject is steaming tonkotsu ramen with a noodle pull and jammy egg —
-the top entries all use it, and a score well above the cutoff is
-what sustains in the prize zone as the field grows.
-Deterministic: the same bytes on every run, no network, no randomness.
-"""
+#!/usr/bin/env python3
+"""food-picture-01 round 2: a photorealistic steaming tonkotsu ramen,
+tight 45-degree close-up, chopsticks lifting a tall glossy noodle pull,
+twin jammy eggs with runny golden yolks, seared chashu, black garlic oil,
+golden-hour light -- appetite first. Round 1 scored #703 because its
+execution was too plain (one egg, no chashu, wide dark composition), so
+round 2 uses the leaderboard-proven richer execution. The top entries
+share the same traits -- twin eggs, chashu, golden-hour -- so this round
+brings them all together in one tight close-up. Deterministic, no
+network, no randomness: it copies the bundled entry.png byte-for-byte."""
 
 import os
 import shutil
